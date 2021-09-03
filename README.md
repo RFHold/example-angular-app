@@ -8,25 +8,17 @@
 
 ## Creation
 
-`ng new example-angular-app --interactive --package-manager yarn --prefix eaa --routing --strict --style scss`
-
-`ng add @angular-eslint/schematics`
-
-`ng add @cypress/schematic`
-
-`ng add @auth0/angular-jwt`
-
-`ng add @ngrx/store`
-
-`ng add @ngrx/store-devtools`
-
-`ng add @ngrx/effects`
-
-`ng add @ngrx/router-store`
-
-`ng add @ngrx/entity`
-
-`ng add @angular/cdk`
+- `ng new example-angular-app --interactive --package-manager yarn --prefix eaa --routing --strict --style scss`
+- `ng add @angular-eslint/schematics`
+- `ng add @cypress/schematic`
+- `ng add @auth0/angular-jwt`
+- `ng add @ngrx/store`
+- `ng add @ngrx/store-devtools`
+- `ng add @ngrx/effects`
+- `ng add @ngrx/router-store`
+- `ng add @ngrx/entity`
+- `ng add @angular/cdk`
+- `ng add @angular/pwa`
 
 ## Development server
 

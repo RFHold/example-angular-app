@@ -14,3 +14,4 @@
   - Overlay
   - Accessibility
   - Clipboard
+- `@angular/service-worker` - For PWA/Service worker support
