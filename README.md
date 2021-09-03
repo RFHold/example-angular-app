@@ -1,6 +1,10 @@
 # ExampleAngularApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
+## Environment
+
+- [NodeJs](https://nodejs.org/) v14.17.5
+- [Yarn](https://yarnpkg.com/) v1.22.11
+- [Angular CLI](https://github.com/angular/angular-cli) v12.2.2
 
 ## Creation
 
@@ -42,7 +46,13 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Run `ng e2e` to execute the end-to-end tests via cypress.
 
 ## Considerations
 
+## TODO
+
+- This project needs a centralized way to log events, state changes, navigation, and errors. [LogRocket](https://logrocket.com/) is an option with [ngrx-middleware](https://docs.logrocket.com/docs/ngrx-middleware) for easy setup
+- This project needs an example websocket connection
+- This project needs is using a service worker. we should add notifications and actions for PWA events
+- This project needs a centralized permission system, This system should be used to guard actions against protected resources, routes, and components
