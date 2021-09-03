@@ -5,6 +5,7 @@
 - [NodeJs](https://nodejs.org/) v14.17.5
 - [Yarn](https://yarnpkg.com/) v1.22.11
 - [Angular CLI](https://github.com/angular/angular-cli) v12.2.2
+- Husky is used for commit and push hooks
 
 ## Creation
 
