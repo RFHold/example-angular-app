@@ -20,6 +20,10 @@
 - `ng add @ngrx/entity`
 - `ng add @angular/cdk`
 - `ng add @angular/pwa`
+- `yarn dlx husky add .husky/pre-commit "yarn lint"`
+- `yarn dlx husky add .husky/pre-push "yarn test"`
+- `yarn add logrocket`
+- `yarn add logrocket-ngrx`
 
 ## Development server
 
@@ -45,7 +49,9 @@ Run `ng e2e` to execute the end-to-end tests via cypress.
 
 ## TODO
 
-- This project needs a centralized way to log events, state changes, navigation, and errors. [LogRocket](https://logrocket.com/) is an option with [ngrx-middleware](https://docs.logrocket.com/docs/ngrx-middleware) for easy setup
 - This project needs an example websocket connection
 - This project needs is using a service worker. we should add notifications and actions for PWA events
 - This project needs a centralized permission system, This system should be used to guard actions against protected resources, routes, and components
+- This project needs global css for layout, inputs, buttons, tooltips, and other commonly used website components
+- i18n support needs to be added to this project. Angular has support for this.
+- This application needs feature flags

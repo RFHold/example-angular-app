@@ -15,3 +15,6 @@
   - Accessibility
   - Clipboard
 - `@angular/service-worker` - For PWA/Service worker support
+- `logrocket` - For logging user activity and debugging sessions
+- `logrocket-ngrx` - For logging state changes
+- `firebase` - For authentication
